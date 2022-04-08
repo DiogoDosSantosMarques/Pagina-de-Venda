@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="pagamento.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma de Pagamento</title>
+</head>
+<body>
+
+    <center>
+    <h1 class="titulo">Preenchimento Pagamento</h1>
+</center>
+    <center>
+    <div class="container">
+        <div class= "row">
+
+            <div class="col">
+                <div class="form-floating">
+                    <label for="floatingInput">Nome: </label><br><br>
+                    <input type="Nome e sobrenome" class="form-control" id="floatingInput" placeholder="Nome completo">
+                </div><br>
+
+                <div class="form-floating mb-3">
+                    <label for="floatingInput">Email: </label><br><br>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                </div><br>
+
+                <div class="form-floating">
+                    <label for="floatingPassword">Telefone:</label><br><br>
+                    <input type="Telefone" class="form-control" id="floatingPassword" placeholder="Telefone">
+                </div><br>
+
+                <div class="form-floating">
+                    <label for="floatingPassword">CPF:</label><br><br>
+                    <input type="CPF" class="form-control" id="floatingPassword" placeholder="CPF">
+                </div><br>
+
+                
+
+                <div class="form-floating">
+                    <label for="floatingPassword">Endereço:</label><br><br>
+                    <input type="Endereço" class="form-control" id="floatingPassword" placeholder="Endereço">
+                </div>
+
+            </center>
+
+
+
+            </div>
+            <center>
+        </div> <br><br><br><br>
+        <select class="form-select" id="country" required="">
+            <option value="">Forma de Pagamento: </option> 
+            <option>Débito</option>
+            <option> Crédito </option>
+            <option> Boleto </option>
+
+
+            
+            <div class="form-floating"><br><br>
+                
+                <label for="floatingPassword">Número do Cartão</label>
+                <input type="Endereço" class="form-control" id="floatingPassword"
+                    placeholder="Número do Cartão"><br><br>
+            </div>
+
+                <h2>Validade:</h2>
+            <div class="form-floating">
+                <label for="floatingPassword"></label>
+                <input type="date" class="form-control" id="floatingPassword"
+                    placeholder="Validade"><br><br>
+            </div>
+            
+            <div class="form-floating">
+                <label for="floatingPassword"></label>
+                <input type="Endereço" class="form-control" id="floatingPassword"
+                    placeholder="Código de Segurança"> <br><br>
+            </div>
+
+           <button>Finalizar Pagamento</button>
+        </center>
+    </div>
+    
+</body>
+</html>
